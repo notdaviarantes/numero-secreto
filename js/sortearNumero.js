@@ -2,8 +2,8 @@ function gerarNumeroAleatorio() {
   return parseInt(Math.random() * maiorValor + 1);
 }
 
-const menorValor = 1;
-const maiorValor = 10;
+const menorValor = 10;
+const maiorValor = 1000;
 
 const numeroSecreto = gerarNumeroAleatorio();
 console.log(numeroSecreto);
